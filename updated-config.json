@@ -1,0 +1,24 @@
+{
+  "gemini_api_key": "AIzaSyDK0JbwANnhWfqK2HTkHNvRvjD3mBVY6ew",
+  "webhook_urls": {
+    "BTC": "http://localhost:5000/webhook/btc",
+    "SOL": "http://localhost:5000/webhook/sol"
+  },
+  "default_webhook_url": "http://localhost:5000/webhook/default",
+  "cryptocurrencies": ["BTC", "SOL"],
+  "cryptopanic_api_key": "9b84be3aa755877273c581025badf243eef7f19f",
+  "web3_providers": {
+    "ethereum": "https://eth-mainnet.g.alchemy.com/v2/demo",
+    "bsc": "https://bsc-dataseed.binance.org/",
+    "polygon": "https://polygon-rpc.com"
+  },
+  "data_fetch_interval": 3600,
+  "model_name": "gemini-2.0-flash",
+  "webhook_enabled": true,
+  "track_whale_wallets": true,
+  "technical_indicators": ["rsi", "macd", "bollinger", "sma", "ema"],
+  "lookback_days": 30,
+  "backtest_enabled": true,
+  "whale_threshold": 1000000,
+  "performance_evaluation_interval": 86400
+}
